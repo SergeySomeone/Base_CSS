@@ -46,7 +46,7 @@ article h2 {
 
 article img {
     width: 100%;
-    height: 300px;
+    height: 600px;
     object-fit: cover;
 }
 
@@ -56,11 +56,12 @@ footer {
 }
 
 footer .links {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
 footer .links > a {
-    color: aqua;
+    color: #2f982a;
     padding: 0 25px;
     font-size: 13px;
     font-weight: 600;
@@ -70,6 +71,8 @@ footer .links > a {
 }
 
 .copyright {
-    color: blueviolet;
+    margin-top: 40px;
+    text-align: center;
+    color: #2f982a;
     font-family: 'Times New Roman', Times, serif;
 }
