@@ -1,11 +1,12 @@
 header {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
     height: 600px;
-    background: url(../images/header.jpg) bottom no-repeat;
-    background-size: cover;
-    }
+    background: url(../images/header2.jpg) bottom no-repeat;
+    background-size:cover;
+    background-position: center;
+ }
 
 body {
     margin: 0;
@@ -13,9 +14,11 @@ body {
 }
 
 h1 {
-    color: rgb(7, 155, 74);
-    font-size: 4rem;
+    color: #49bd26;
+    font-size: 5rem;
     font-family: 'Times New Roman', Times, serif;
+    padding-left: 10cm;
+    padding-top: 10cm;
 }
 
 .news {
