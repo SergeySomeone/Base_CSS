@@ -22,7 +22,7 @@ h1 {
 }
 
 .news {
-    background-color: aliceblue;
+    background-color: #97c48a;
     padding: 50px 0px 32px;
 }
 
@@ -32,6 +32,10 @@ article {
     padding: 6px 15px;
     border-bottom: 1 px solid rgb(128, 128, 128);
 }
+
+article:nth-child(even) {
+    background-color: #49bd26;
+ }
 
 article a {
     color: rgb(33, 37, 41);
@@ -45,6 +49,16 @@ article a:hover {
 article h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 5px;
+}
+
+.Lemur::after {
+    content: "(NEW!)";
+    padding-left: 5px;
+}
+
+.Lion::after {
+    content: "(NEW!)";
+    padding-left: 5px;
 }
 
 article img {
